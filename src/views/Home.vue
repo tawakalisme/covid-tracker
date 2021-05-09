@@ -1,5 +1,5 @@
 <template>
-  <main v-if="!isLoading" class="home">
+  <main v-if="!isLoading" class="mb-10">
     <data-title :text="title" :dataDate="dataDate" />
     <data-boxes :stats="stats" />
     <country-select :countries="countries" @get-country="getCountryData" />
@@ -14,6 +14,7 @@
 import DataTitle from "@/components/DataTitle";
 import DataBoxes from "@/components/DataBoxes";
 import CountrySelect from "@/components/CountrySelect";
+
 export default {
   components: {
     DataTitle,

@@ -10,7 +10,7 @@
         id="selectCountry"
         @change="onChange()"
         v-model="selected"
-        class="form-select block w-full border rounded p-2 mt-2 focus:outline-none"
+        class="form-select block w-full border rounded p-2 mt-2 focus:outline-none cursor-pointer"
       >
         <optgroup label="Global Data">
           <option value="0">Global</option>
